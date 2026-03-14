@@ -3,6 +3,7 @@ import Categoryes from "../Categories";
 
 const LeftAside = () => {
   return (
+    
     <div>
       <Suspense fallback={""}>
         <Categoryes></Categoryes>
@@ -12,3 +13,5 @@ const LeftAside = () => {
 };
 
 export default LeftAside;
+
+
